@@ -1,5 +1,5 @@
 {
-    "navbar" : {
+    "navbar": {
         "home": "Beranda",
         "about": "Tentang Saya",
         "skill": "Keahlian",
@@ -8,5 +8,21 @@
     },
     "home": {
         "title": "Halaman beranda"
-    }
+    },
+    "about": {
+        "head": "Mengenal Saya Lebih Dekat",
+        "subhead": "Mari kita mulai perjalanan untuk saling mengenal lebih jauh.",
+        "tentangsaya": "Tentang Saya",
+        "riwayatpendidikan": "Riwayat Pendidikan",
+        "pengalamankerja": "Pengalaman Kerja",
+        "texttentangsaya": "Saya adalah lulusan SMK dengan jurusan Teknik Komputer dan Jaringan, di mana saya berhasil menyelesaikan studi saya dengan predikat yang baik. Selama masa pendidikan, saya mendapatkan kesempatan berharga untuk menjalani program Praktek Kerja Lapangan (PKL) di bidang networking fiber optik, yang tidak hanya memperdalam pengetahuan saya tentang infrastruktur jaringan, tetapi juga memberikan pengalaman langsung dalam menerapkan teori yang telah saya pelajari di kelas.",
+        "texttentangsaya2": "Saat ini, saya berkarir sebagai Junior Web Developer di PT Belanja Pasti Indonesia. Dalam peran ini, saya terlibat dalam berbagai aspek pengembangan dan pemeliharaan aplikasi web, termasuk perancangan antarmuka pengguna yang intuitif dan pengoptimalan performa website. Saya sangat antusias untuk terus mengeksplorasi teknologi baru dan mengasah keterampilan saya dalam dunia pengembangan web yang terus berkembang.",
+        "texteducation": "Saya fokus mempelajari Administrasi Sistem Jaringan selama menempuh pendidikan, dengan penekanan pada konfigurasi perangkat jaringan, pemecahan masalah, dan manajemen sistem. Saya juga mendalami Administrasi Infrastruktur Jaringan dan Teknologi Layanan Jaringan. Selama pendidikan, saya memperoleh pengalaman berharga dengan berpartisipasi dalam Lomba Kompetensi Siswa (LKS) tingkat Provinsi Yogyakarta dalam bidang IT Network System Administration pada tahun 2023, yang memperkuat pemahaman dan keterampilan saya di bidang ini.",
+        "smknegeri": "Sekolah Menengah Kejuruan Negeri 2 Pengasih",
+        "teknikjaringankomputer": "Teknik Komputer Jaringan dan Telekomunikasi",
+        "ptbelanja":"PT Belanja Pasti Indonesia",
+        "webdeveloper":"Pengembang Web",
+        "textexperience":"Saya telah berkontribusi secara aktif dalam pengembangan berbagai proyek web. Hingga saat ini, saya telah terlibat dalam tiga proyek signifikan, dengan peran termasuk pengembangan front-end di mana saya menerapkan antarmuka pengguna berdasarkan desain yang dibuat oleh tim kreatif. Selain itu, saya juga memiliki pengalaman dalam menangani integrasi database dan API serta tugas-tugas front-end, memastikan solusi web yang kohesif dan fungsional."
+    },
+    "sekarang": "Sekarang"
 }

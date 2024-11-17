@@ -1,5 +1,5 @@
 {
-    "navbar" : {
+    "navbar": {
         "home": "Home",
         "about": "About",
         "skill": "Skills",
@@ -8,5 +8,21 @@
     },
     "home": {
         "title": "Home Page"
-    }
+    },
+    "about": {
+        "head": "Getting to Know Me Better",
+        "subhead": "Let's begin the journey to get to know each other better.",
+        "tentangsaya": "About Me",
+        "riwayatpendidikan": "Education History",
+        "pengalamankerja": "Work Experience",
+        "texttentangsaya": "I am a vocational high school graduate majoring in Computer and Network Engineering, where I successfully completed my studies with a good predicate. During my education, I had the valuable opportunity to undergo a Field Work Practice (PKL) program in fiber optic networking, which not only deepened my knowledge of network infrastructure, but also provided hands-on experience in applying the theories I had learned in class.",
+        "texttentangsaya2": "Currently, I am a Junior Web Developer at PT Belanja Pasti Indonesia. In this role, I am involved in various aspects of web application development and maintenance, including designing intuitive user interfaces and optimizing website performance. I am excited to continue exploring new technologies and honing my skills in the ever-evolving world of web development.",
+        "texteducation": "I focused on Network System Administration during my education, with an emphasis on network device configuration, troubleshooting, and system management. I also studied Network Infrastructure Administration and Network Service Technology. During my education, I gained valuable experience by participating in the Yogyakarta Province Student Competency Competition (LKS) in IT Network System Administration in 2023, which strengthened my understanding and skills in this field",
+        "smknegeri": "State Vocational High School 2 Pengasih",
+        "teknikjaringankomputer": "Computer Network and Telecommunications Engineering",
+        "ptbelanja" : "PT Belanja Pasti Indonesia",
+        "webdeveloper":"Web Developer",
+        "textexperience":"I have actively contributed to the development of various web projects. To date, I have been involved in three significant projects, with roles including front-end development, where I implemented user interfaces based on designs created by the creative team. Additionally, I also have experience in handling database and API integration, as well as front-end tasks, ensuring cohesive and functional web solutions."
+    },
+    "sekarang": "Now"
 }
