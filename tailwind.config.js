@@ -7,12 +7,21 @@ export default {
     ],
     theme: {
     	extend: {
-    		borderRadius: {
-    			lg: 'var(--radius)',
-    			md: 'calc(var(--radius) - 2px)',
-    			sm: 'calc(var(--radius) - 4px)'
-    		},
-    		colors: {}
+    		colors: {
+                'light-first': 'var(--light-first)',
+                'light-second': 'var(--light-second)',
+                'light-third': 'var(--light-third)',
+                'light-fourth': 'var(--light-fourth)',
+                'light-fifth': 'var(--light-fifth)',
+                'light-sixth': 'var(--light-sixth)',
+
+                'dark-first': 'var(--dark-first)',
+                'dark-second': 'var(--dark-second)',
+                'dark-third': 'var(--dark-third)',
+                'dark-fourth': 'var(--dark-fourth)',
+                'dark-fifth': 'var(--dark-fifth)',
+                'dark-sixth': 'var(--dark-sixth)',
+              }
     	}
     },
     plugins: [require("tailwindcss-animate")],

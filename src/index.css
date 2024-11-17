@@ -3,6 +3,32 @@
 @tailwind utilities;
 @layer base {
   :root {
-    --radius: 0.5rem
+    /* Colors Light */
+    --light-first: #21212d;
+    --light-second: #534044;
+    --light-third: #9c6350;
+    --light-fourth: #f4cea1;
+    --light-fifth: #727668;
+    --light-sixth: #2d3f53;
+
+    /* Colors Dark */
+    --dark-first: #1a324a;
+    --dark-second: #1d536d;
+    --dark-third: #18a3b6;
+    --dark-fourth: #27e7ec;
+    --dark-fifth: #5aa5cd;
+    --dark-sixth: #6f71a1;
   }
+}
+
+.text__gradient {
+    @apply bg-gradient-to-tr from-[#9c6350] to-[#f4cea1] dark:bg-gradient-to-bl dark:from-[#6f71a1] dark:to-[#27e7ec] text-transparent bg-clip-text;
+}
+
+.active__navlink {
+    @apply px-3 font-semibold;
+}
+
+.default__navlink {
+    @apply px-3 font-semibold;
 }
