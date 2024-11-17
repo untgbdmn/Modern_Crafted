@@ -26,7 +26,7 @@
 }
 
 .active__navlink {
-    @apply px-3 font-semibold;
+    @apply px-3 font-bold text-[#9c6350] border-b-2 border-[#727668] border-spacing-1 dark:text-[#18a3b6] dark:border-[#5aa5cd];
 }
 
 .default__navlink {
