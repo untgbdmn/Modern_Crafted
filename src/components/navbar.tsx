@@ -84,8 +84,6 @@ export default function Navbar() {
                 </div>
             </div>
 
-
-            {/* transition-transform duration-500 dark:bg-white/20 bg-black/10 absolute w-36 py-5 top-[60px] rounded-md z-[999] backdrop-blur-md */}
             <div className={`${nav ? '-translate-x-[3000px]' : 'translate-x-0'} relative mt-3 transition-transform duration-700`} onClick={handleNav}>
                 <div className="absolute inset-x-0" onClick={handleNav}>
                     <div className="dark:bg-white/30 bg-black/5 rounded-md backdrop-blur-md flex flex-col items-center gap-2 w-1/3 py-2">
