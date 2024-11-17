@@ -61,7 +61,13 @@ export default function AboutPage() {
                 <Experience />
             </div>
 
-            <div className="flex flex-row gap-3 items-center justify-center mt-8">
+            <div className="lg:hidden flex flex-row gap-3 items-center justify-center lg:mt-8 mt-6">
+                <div className="bg-black dark:bg-white p-1.5 flex items-center justify-center rounded-full"><FaGithub className="text-lg text-white dark:text-black" /></div>
+                <div className="bg-gradient-to-br from-blue-600 to-sky-500 p-1.5 flex items-center justify-center rounded-full"><FaLinkedinIn className="text-lg text-white" /></div>
+                <div className="bg-gradient-to-br from-purple-500 via-pink-500 to-yellow-400 p-1.5 flex items-center justify-center rounded-full"><FaInstagram className="text-lg text-white" /></div>
+            </div>
+
+            <div className="lg:flex hidden flex-row gap-3 items-center justify-center mt-8">
                 <div data-aos="fade-up" className="bg-black dark:bg-white p-1.5 flex items-center justify-center rounded-full"><FaGithub className="text-lg text-white dark:text-black" /></div>
                 <div data-aos="fade-up" className="bg-gradient-to-br from-blue-600 to-sky-500 p-1.5 flex items-center justify-center rounded-full"><FaLinkedinIn className="text-lg text-white" /></div>
                 <div data-aos="fade-up" className="bg-gradient-to-br from-purple-500 via-pink-500 to-yellow-400 p-1.5 flex items-center justify-center rounded-full"><FaInstagram className="text-lg text-white" /></div>
