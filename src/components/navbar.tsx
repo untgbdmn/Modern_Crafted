@@ -85,25 +85,53 @@ export default function Navbar() {
             </div>
 
 
-            <div className={`${nav ? '-translate-x-[300px]' : 'translate-x-0'} transition-transform duration-500 dark:bg-white/20 bg-black/10 absolute w-36 py-5 top-[60px] rounded-md`}>
-                <div className="flex flex-col items-center gap-2">
-                    <Link className="font-semibold text-base" to={'/'}>{t('home')}</Link>
-                    <Link className="font-semibold text-base" to={'/about'}>{t('about')}</Link>
-                    <Link className="font-semibold text-base" to={'/skills'}>{t('skill')}</Link>
-                    <Link className="font-semibold text-base" to={'/portofolio'}>{t('portofolio')}</Link>
-                    <Link className="font-semibold text-base" to={'/contact'}>{t('contact')}</Link>
-                </div>
-                <div className="flex flex-row-reverse items-center justify-center gap-3 mt-4">
-                    <button className="" onClick={() => setTheme(isdark ? "light" : "dark")}>
-                        {isdark ? (
-                            <Sun className="h-5 w-5 text-yellow-500 transition-all duration-200" />
-                        ) : (
-                            <Moon className="h-5 w-5 text-blue-500 transition-all duration-200" />
-                        )}
-                    </button>
-                    <button onClick={toggleLanguage} className="text-lg">
-                        {i18n.language === 'id' ? 'ID' : 'EN'}
-                    </button>
+            {/* transition-transform duration-500 dark:bg-white/20 bg-black/10 absolute w-36 py-5 top-[60px] rounded-md z-[999] backdrop-blur-md */}
+            <div className={`${nav ? '-translate-x-[3000px]' : 'translate-x-0'} relative mt-3 transition-transform duration-700`} onClick={handleNav}>
+                <div className="absolute inset-x-0" onClick={handleNav}>
+                    <div className="dark:bg-white/30 bg-black/5 rounded-md backdrop-blur-md flex flex-col items-center gap-2 w-1/3 py-2">
+                        <NavLink
+                            to="/" className={({ isActive }) =>
+                                isActive ? 'active__navlink' : 'default__navlink'
+                            }>
+                            {t('navbar.home')}
+                        </NavLink>
+                        <NavLink
+                            to="/about" className={({ isActive }) =>
+                                isActive ? 'active__navlink' : 'default__navlink'
+                            }>
+                            {t('navbar.about')}
+                        </NavLink>
+                        <NavLink
+                            to="/skill" className={({ isActive }) =>
+                                isActive ? 'active__navlink' : 'default__navlink'
+                            }>
+                            {t('navbar.skill')}
+                        </NavLink>
+                        <NavLink
+                            to="/portofolio" className={({ isActive }) =>
+                                isActive ? 'active__navlink' : 'default__navlink'
+                            }>
+                            {t('navbar.portofolio')}
+                        </NavLink>
+                        <NavLink
+                            to="/contact" className={({ isActive }) =>
+                                isActive ? 'active__navlink' : 'default__navlink'
+                            }>
+                            {t('navbar.contact')}
+                        </NavLink>
+                    </div>
+                    <div className="flex flex-row-reverse items-center justify-center gap-3 mt-4 w-1/3 dark:bg-white/30 py-2 bg-black/5 rounded-md">
+                        <button className="" onClick={() => setTheme(isdark ? "light" : "dark")}>
+                            {isdark ? (
+                                <Sun className="h-5 w-5 text-yellow-500 transition-all duration-200" />
+                            ) : (
+                                <Moon className="h-5 w-5 text-blue-500 transition-all duration-200" />
+                            )}
+                        </button>
+                        <button onClick={toggleLanguage} className="text-lg">
+                            {i18n.language === 'id' ? 'ID' : 'EN'}
+                        </button>
+                    </div>
                 </div>
             </div>
         </>
