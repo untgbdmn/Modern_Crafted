@@ -1,0 +1,12 @@
+{
+    "navbar" : {
+        "home": "Beranda",
+        "about": "Tentang Saya",
+        "skill": "Keahlian",
+        "portofolio": "Karya",
+        "contact": "Kontak"
+    },
+    "home": {
+        "title": "Halaman beranda"
+    }
+}
