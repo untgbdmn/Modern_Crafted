@@ -32,3 +32,15 @@
 .default__navlink {
     @apply px-3 font-semibold;
 }
+
+.divider__line {
+    @apply bg-black h-[0.5px] dark:bg-white;
+}
+
+.tab__active {
+    @apply px-3 font-semibold bg-[#727668] py-1 text-white rounded-md dark:bg-[#5aa5cd] shadow-md;
+}
+
+.tab__default {
+    @apply px-3 font-semibold py-1;
+}

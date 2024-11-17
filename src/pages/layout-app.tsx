@@ -6,7 +6,7 @@ export default function LayoutApp({ children }: PropsWithChildren) {
     <div className='min-h-screen w-full h-full dark:bg-black dark:text-white bg-white text-black'>
         <div className="px-5">
             <Navbar />
-        <main className="h-full min-h-[535px] mt-3">
+        <main className="h-full min-h-[530px] mt-3">
             {children}
         </main>
         <footer className='flex items-center justify-center text-sm'>
