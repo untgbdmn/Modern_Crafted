@@ -3,7 +3,7 @@ import { FaBootstrap, FaCss3, FaHtml5, FaLaravel, FaPhp, FaReact } from "react-i
 import { motion } from 'framer-motion'
 import { useRef } from "react";
 import { RiJavascriptFill, RiNextjsLine } from "react-icons/ri";
-import { SiMysql, SiPrisma, SiTypescript } from "react-icons/si";
+import { SiMysql, SiTypescript } from "react-icons/si";
 import { BiLogoPostgresql, BiLogoTailwindCss } from "react-icons/bi";
 
 export default function SkillsPage() {
