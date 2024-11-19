@@ -6,6 +6,7 @@ import AboutPage from "./pages/about-page";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import SkillsPage from "./pages/skills-page";
+import PortoPage from "./pages/porto-page";
 
 export default function App() {
     AOS.init({
@@ -20,6 +21,7 @@ export default function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<AboutPage />} />
                     <Route path="/skill" element={<SkillsPage />} />
+                    <Route path="/portofolio" element={<PortoPage />} />
                 </Routes>
             </LayoutApp>
         </ThemeProvider>

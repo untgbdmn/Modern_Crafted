@@ -27,5 +27,9 @@
     "skill": {
         "desc": "Saya memiliki keterampilan dalam pengembangan frontend dan backend, dengan fokus pada desain responsif menggunakan Tailwind CSS. Saya berpengalaman dalam framework seperti Next.js dan React.js, dan sering menggunakan pustaka Framer Motion. Selain itu, saya biasanya mengintegrasikan komponen UI dari Aceternity UI atau Magic UI untuk meningkatkan pengalaman pengguna."
     },
+    "portofolio": {
+        "titleportofolio": "Galeri Karya Web",
+        "subtitleportofolio":"Menampilkan hasil karya saya dalam pengembangan situs dan aplikasi berbasis web"
+    },
     "sekarang": "Sekarang"
 }

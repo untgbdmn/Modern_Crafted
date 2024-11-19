@@ -27,5 +27,9 @@
     "skill": {
         "desc": "I have skills in both frontend and backend development, with a focus on responsive design using Tailwind CSS. I am experienced with frameworks such as Next.js and React.js, and I often use the Framer Motion library. Additionally, I usually integrate UI components from Aceternity UI or Magic UI to enhance the user experience."
     },
+    "portofolio": {
+        "titleportofolio": "Web Works Gallery",
+        "subtitleportofolio":"Showcasing my work in developing websites and web-based applications"
+    },
     "sekarang": "Now"
 }
