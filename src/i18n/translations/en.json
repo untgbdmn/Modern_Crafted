@@ -24,5 +24,12 @@
         "webdeveloper":"Web Developer",
         "textexperience":"I have actively contributed to the development of various web projects. To date, I have been involved in three significant projects, with roles including front-end development, where I implemented user interfaces based on designs created by the creative team. Additionally, I also have experience in handling database and API integration, as well as front-end tasks, ensuring cohesive and functional web solutions."
     },
+  "skill": {
+        "desc": "I have skills in both frontend and backend development, with a focus on responsive design using Tailwind CSS. I am experienced with frameworks such as Next.js and React.js, and I often use the Framer Motion library. Additionally, I usually integrate UI components from Aceternity UI or Magic UI to enhance the user experience."
+    },
+    "portofolio": {
+        "titleportofolio": "Web Works Gallery",
+        "subtitleportofolio":"Showcasing my work in developing websites and web-based applications"
+    },
     "sekarang": "Now"
 }
