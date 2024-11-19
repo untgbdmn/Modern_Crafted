@@ -24,7 +24,7 @@
         "webdeveloper":"Pengembang Web",
         "textexperience":"Saya telah berkontribusi secara aktif dalam pengembangan berbagai proyek web. Hingga saat ini, saya telah terlibat dalam tiga proyek signifikan, dengan peran termasuk pengembangan front-end di mana saya menerapkan antarmuka pengguna berdasarkan desain yang dibuat oleh tim kreatif. Selain itu, saya juga memiliki pengalaman dalam menangani integrasi database dan API serta tugas-tugas front-end, memastikan solusi web yang kohesif dan fungsional."
     },
-    "skill": {
+  "skill": {
         "desc": "Saya memiliki keterampilan dalam pengembangan frontend dan backend, dengan fokus pada desain responsif menggunakan Tailwind CSS. Saya berpengalaman dalam framework seperti Next.js dan React.js, dan sering menggunakan pustaka Framer Motion. Selain itu, saya biasanya mengintegrasikan komponen UI dari Aceternity UI atau Magic UI untuk meningkatkan pengalaman pengguna."
     },
     "portofolio": {
