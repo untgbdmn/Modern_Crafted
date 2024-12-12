@@ -16,12 +16,12 @@ export default function SkillsPage() {
         left: -40,
     };
     return (
-        <div className="py-10">
+        <div className="py-10 h-full min-h-[500px]">
             <div className="">
                 <p className="text-center lg:px-20 px-5">{t('skill.desc')} </p>
             </div>
 
-            <div className="grid lg:grid-cols-6 lg:w-[80%] px-10 lg:px-0 mx-auto mt-10 grid-cols-2 w-full gap-4" ref={constraintsRef}>
+            <div className="grid lg:grid-cols-6 lg:w-[80%] px-10 lg:px-0 mx-auto mt-10 grid-cols-2 w-full gap-4 overflow-visible" ref={constraintsRef}>
 
                     <motion.div drag
                         dragConstraints={dragConstrain}
