@@ -7,7 +7,16 @@
         "contact": "Contact"
     },
     "home": {
-        "title": "Home Page"
+        "title": "By Merging Creative Ideas with Cutting-Edge Technology, I Bring Your Vision to Screen with ",
+        "subtitle": "Seamless Web and Mobile Integration.",
+        "kontaksaya":"Contact Me!",
+        "aboutme":"About Me!",
+        "tentangsaya": "Getting to Know Me?",
+        "name": "Name",
+        "nomor": "Phone Number",
+        "email": "Email",
+        "alamat": "Address",
+        "deskripsitentangsaya": "As a web developer, I have a quick learning ability and easily adapt to new environments. I enjoy new challenges and am always ready to collaborate within a team. Additionally, I am also interested in exploring the world of mobile development. I am confident that I can make a positive contribution to the team."
     },
     "about": {
         "head": "Getting to Know Me Better",
@@ -31,5 +40,6 @@
         "titleportofolio": "Web Works Gallery",
         "subtitleportofolio":"Showcasing my work in developing websites and web-based applications"
     },
-    "sekarang": "Now"
+    "sekarang": "Now",
+    "bacaselengkapnya": "Read More"
 }

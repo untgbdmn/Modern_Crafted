@@ -7,7 +7,16 @@
         "contact": "Kontak"
     },
     "home": {
-        "title": "Halaman beranda"
+        "title": "Dengan Menggabungkan Ide Kreatif dan Teknologi Terkini, Membawa Visi Anda ke Layar dengan ",
+        "subtitle": "Integrasi Web dan Mobile yang Mulus.",
+        "kontaksaya":"Hubungi Saya",
+        "aboutme":"Tentang Saya",
+        "tentangsaya": "Siapa Saya?",
+        "name": "Nama",
+        "nomor": "Nomor Handphone",
+        "email": "Email",
+        "alamat": "Alamat",
+        "deskripsitentangsaya": "Sebagai pengembang web, saya memiliki kemampuan belajar yang cepat dan mudah beradaptasi dengan lingkungan baru. Saya menikmati tantangan baru dan selalu siap untuk berkolaborasi dalam tim. Selain itu, saya juga tertarik untuk mengeksplorasi dunia pengembangan mobile. Saya yakin dapat memberikan kontribusi positif bagi tim."
     },
     "about": {
         "head": "Mengenal Saya Lebih Dekat",
@@ -31,5 +40,6 @@
         "titleportofolio": "Galeri Karya Web",
         "subtitleportofolio":"Menampilkan hasil karya saya dalam pengembangan situs dan aplikasi berbasis web"
     },
-    "sekarang": "Sekarang"
+    "sekarang": "Sekarang",
+    "bacaselengkapnya": "Baca Selengkapnya"
 }
