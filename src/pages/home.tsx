@@ -6,6 +6,10 @@ import { RiContactsBook3Line } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import HeroImage from "../assets/images/hero.png";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import ShineBorder from "@/components/ui/shine-border";
+import Marquee from "react-fast-marquee";
+import { FaHtml5 } from "react-icons/fa";
+import MarqueSkills from "@/components/marque-skills";
 
 export default function Home() {
     const { t } = useTranslation();
@@ -82,7 +86,17 @@ export default function Home() {
 
             {/* SKills Section */}
             <div className="py-20">
-                da
+                <div className="flex flex-col items-center justify-center">
+                    <h1 className="text-3xl font-bold text-light-fifth dark:text-dark-sixth">{t("home.kemampuanyangsayamiliki")}</h1>
+                    <p className="text-base font-semibold uppercase tracking-wider">{t('navbar.skill')}</p>
+                </div>
+
+                <div className="pt-16">
+                    <div className="w-full">
+                        <MarqueSkills />
+                        <MarqueSkills direction="right" delay={10}/>
+                    </div>
+                </div>
             </div>
             {/* End SKills Section */}
         </div>

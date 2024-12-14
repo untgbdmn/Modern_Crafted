@@ -11,38 +11,49 @@ export default {
         "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
-        extend: {
-            colors: {
-                'light-first': 'var(--light-first)',
-                'light-second': 'var(--light-second)',
-                'light-third': 'var(--light-third)',
-                'light-fourth': 'var(--light-fourth)',
-                'light-fifth': 'var(--light-fifth)',
-                'light-sixth': 'var(--light-sixth)',
-
-                'dark-first': 'var(--dark-first)',
-                'dark-second': 'var(--dark-second)',
-                'dark-third': 'var(--dark-third)',
-                'dark-fourth': 'var(--dark-fourth)',
-                'dark-fifth': 'var(--dark-fifth)',
-                'dark-sixth': 'var(--dark-sixth)',
-            },
-            animation: {
-                spotlight: "spotlight 2s ease .75s 1 forwards",
-            },
-            keyframes: {
-                spotlight: {
-                    "0%": {
-                        opacity: 0,
-                        transform: "translate(-72%, -62%) scale(0.5)",
-                    },
-                    "100%": {
-                        opacity: 1,
-                        transform: "translate(-50%,-40%) scale(1)",
-                    },
-                },
-            },
-        }
+    	extend: {
+    		colors: {
+    			'light-first': 'var(--light-first)',
+    			'light-second': 'var(--light-second)',
+    			'light-third': 'var(--light-third)',
+    			'light-fourth': 'var(--light-fourth)',
+    			'light-fifth': 'var(--light-fifth)',
+    			'light-sixth': 'var(--light-sixth)',
+    			'dark-first': 'var(--dark-first)',
+    			'dark-second': 'var(--dark-second)',
+    			'dark-third': 'var(--dark-third)',
+    			'dark-fourth': 'var(--dark-fourth)',
+    			'dark-fifth': 'var(--dark-fifth)',
+    			'dark-sixth': 'var(--dark-sixth)'
+    		},
+    		animation: {
+    			spotlight: 'spotlight 2s ease .75s 1 forwards',
+    			shine: 'shine var(--duration) infinite linear'
+    		},
+    		keyframes: {
+    			spotlight: {
+    				'0%': {
+    					opacity: 0,
+    					transform: 'translate(-72%, -62%) scale(0.5)'
+    				},
+    				'100%': {
+    					opacity: 1,
+    					transform: 'translate(-50%,-40%) scale(1)'
+    				}
+    			},
+    			shine: {
+    				'0%': {
+    					'background-position': '0% 0%'
+    				},
+    				'50%': {
+    					'background-position': '100% 100%'
+    				},
+    				to: {
+    					'background-position': '0% 0%'
+    				}
+    			}
+    		}
+    	}
     },
     plugins: [require("tailwindcss-animate"),
         addVariablesForColors,

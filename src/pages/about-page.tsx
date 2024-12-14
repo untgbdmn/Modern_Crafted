@@ -35,7 +35,6 @@ export default function AboutPage() {
 
     return (
         <div className="lg:p-10 p-5 overflow-y-visible">
-            <Link to="/#about" >Klik</Link>
             <div data-aos="zoom-in-up" className="flex flex-col items-center lg:w-[60%] w-full mx-auto rounded-md py-2.5 bg-black/5 shadow-md dark:bg-white/10 dark:shadow-md dark:shadow-gray-300/5">
                 <h1 className="text-lg font-bold text__gradient">{t('about.head')}</h1>
                 <p className="text-sm font-normal text-center">{t('about.subhead')}</p>
