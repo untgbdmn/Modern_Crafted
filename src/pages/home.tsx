@@ -3,7 +3,7 @@ import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
 import { useTranslation } from "react-i18next"
 import { motion } from "framer-motion";
 import { RiContactsBook3Line } from "react-icons/ri";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import HeroImage from "../assets/images/hero.png";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import ShineBorder from "@/components/ui/shine-border";
@@ -15,6 +15,7 @@ import { FaGithub } from "react-icons/fa";
 // Images For Portofolio
 import CVFormImage from "../assets/images/cvform.png";
 import Breezio from "../assets/images/brezio.png";
+import PersonalPortofolio from "../assets/images/personal.png";
 
 export default function Home() {
     const { t } = useTranslation();
@@ -113,7 +114,7 @@ export default function Home() {
                     <p className="text-base font-semibold uppercase tracking-wider">{t('navbar.portofolio')}</p>
                 </div>
 
-                <div className="grid grid-cols-2 mt-20 gap-32 px-8">
+                <div className="grid grid-cols-3 mt-20 gap-x-32 gap-y-10 px-8">
                     <Drawer>
                         <DrawerTrigger className="flex items-center justify-center">
                             <ShineBorder className="w-full py-7" color={theme.theme === "dark" ? ["#1a324a", "#27e7ec", "#5aa5cd"] : ["#21212d", "#9c6350", "#f4cea1"]} borderWidth={3} duration={13}>
@@ -142,7 +143,7 @@ export default function Home() {
                             </DrawerHeader>
 
                             <div className="h-full min-h-96 px-4 grid grid-cols-2 items-center">
-                                <p className="text-black dark:text-white">{t('home.keterangancvform')}</p>
+                                <p className="text-black dark:text-white pr-8">{t('home.keterangancvform')}</p>
                                 <div className="inline-flex items-center justify-end"><img src={CVFormImage} className="w-auto h-80 " /></div>
                             </div>
                         </DrawerContent>
@@ -176,8 +177,42 @@ export default function Home() {
                             </DrawerHeader>
 
                             <div className="h-full min-h-96 px-4 grid grid-cols-2 items-center">
-                                <p className="text-black dark:text-white">{t('home.keteranganbreezio')}</p>
+                                <p className="text-black dark:text-white pr-8">{t('home.keteranganbreezio')}</p>
                                 <div className="inline-flex items-center justify-end"><img src={Breezio} className="w-auto h-80 " /></div>
+                            </div>
+                        </DrawerContent>
+                    </Drawer>
+
+                    <Drawer>
+                        <DrawerTrigger className="flex items-center justify-center">
+                            <ShineBorder className="w-full py-7" color={theme.theme === "dark" ? ["#1a324a", "#27e7ec", "#5aa5cd"] : ["#21212d", "#9c6350", "#f4cea1"]} borderWidth={3} duration={13}>
+                                <div className="">
+                                    <h1 className="font-bold text-xl">The Artful Journey</h1>
+                                    <p className="text-sm text-gray-600 dark:text-gray-400">Click Me!</p>
+                                </div>
+                            </ShineBorder>
+                        </DrawerTrigger>
+                        <DrawerContent className="overflow-hidden">
+                            <DrawerHeader>
+                                <div className="flex flex-row justify-between items-center">
+                                    <div>
+                                        <h1 className="font-bold text-2xl text-light-second dark:text-dark-fifth">The Artful Journey</h1>
+                                        <p className="text-sm text-light-sixth dark:text-gray-400 max-w-[1000px]">{t('home.deskripsiportofolio')}</p>
+                                    </div>
+                                    <div className="flex flex-row gap-5">
+                                        <Link to="#" target="_blank">
+                                            <button className="inline-flex items-center justify-center gap-2 bg-black text-white px-5 py-1 rounded-md hover:opacity-80 transition-opacity duration-200 dark:bg-white dark:text-black font-semibold"><FaGithub />Github</button>
+                                        </Link>
+                                        <Link to="#" target="_blank" className="bg-light-sixth font-semibold px-5 py-1 rounded-md transition-opacity duration-200 text-white hover:opacity-70 dark:bg-dark-sixth">
+                                            Demo
+                                        </Link>
+                                    </div>
+                                </div>
+                            </DrawerHeader>
+
+                            <div className="h-full min-h-96 px-4 grid grid-cols-2 items-center">
+                                <p className="text-black dark:text-white pr-8">{t('home.keteranganportofolio')}</p>
+                                <div className="inline-flex items-center justify-end"><img src={PersonalPortofolio} className="w-auto h-80 " /></div>
                             </div>
                         </DrawerContent>
                     </Drawer>
@@ -188,9 +223,65 @@ export default function Home() {
 
             {/* Contact Section */}
             <div className="py-20">
-                ad
+                <div className="flex flex-col items-center justify-center">
+                    <h1 className="text-3xl font-bold text-light-fifth dark:text-dark-sixth">{t("home.silahkankontaksaya")}</h1>
+                    <p className="text-base font-semibold uppercase tracking-wider">{t('navbar.contact')}</p>
+                </div>
+
+                <div className="grid grid-cols-2 gap-5 px-5 mt-14">
+                    <div className="p-3">
+
+                        <div className="flex flex-col form-group">
+                            <label htmlFor="name">Name</label>
+                            <input type="text" className="" placeholder={t('kontak.ketikannama')} />
+                        </div>
+
+                        <div className="flex flex-col form-group">
+                            <label htmlFor="email">Email</label>
+                            <input type="email" className="" placeholder={t('kontak.ketikanemail')} />
+                        </div>
+
+                    </div>
+                    <div className="p-3">
+                        <div className="flex flex-col form-group">
+                            <label htmlFor="pesan">{t('kontak.pesan')}</label>
+                            <textarea className="h-full w-full min-h-[94px]" placeholder={t('kontak.ketikanpesan')} />
+                        </div>
+                    </div>
+                    <div className="col-span-2 px-3 grid grid-cols-2 gap-x-10 items-center justify-center">
+                        <button className="rounded-md py-1 font-semibold bg-light-third dark:bg-dark-sixth text-white hover:opacity-80 transition-opacity duration-200">{t('kontak.kirimpesan')}</button>
+                        <button className="rounded-md py-1 font-semibold hover:opacity-80 transition-opacity duration-200 border border-light-first dark:border-dark-sixth">{t('kontak.kirimpesanemail')}</button>
+                    </div>
+                </div>
             </div>
             {/* End Contact Section */}
+
+            {/* Footer Section */}
+            <div className="px-5 py-9">
+                <div className="bg-light-third dark:bg-dark-third w-full flex items-center justify-center text-white py-2 rounded-md">
+                <NavLink
+                    to="/" className="font-semibold px-10 text-base">
+                    {t('navbar.home')}
+                </NavLink>
+                <NavLink
+                    to="/about" className="font-semibold px-10 text-base">
+                    {t('navbar.about')}
+                </NavLink>
+                <NavLink
+                    to="/skill" className="font-semibold px-10 text-base">
+                    {t('navbar.skill')}
+                </NavLink>
+                <NavLink
+                    to="/portofolio" className="font-semibold px-10 text-base">
+                    {t('navbar.portofolio')}
+                </NavLink>
+                <NavLink
+                    to="/contact" className="font-semibold px-10 text-base">
+                    {t('navbar.contact')}
+                </NavLink>
+                </div>
+            </div>
+            {/* End Footer Section */}
         </div>
     )
 }

@@ -9,8 +9,8 @@
     "home": {
         "title": "Dengan Menggabungkan Ide Kreatif dan Teknologi Terkini, Membawa Visi Anda ke Layar dengan ",
         "subtitle": "Integrasi Web dan Mobile yang Mulus.",
-        "kontaksaya":"Hubungi Saya",
-        "aboutme":"Tentang Saya",
+        "kontaksaya": "Hubungi Saya",
+        "aboutme": "Tentang Saya",
         "tentangsaya": "Siapa Saya?",
         "name": "Nama",
         "nomor": "Nomor Handphone",
@@ -19,10 +19,13 @@
         "deskripsitentangsaya": "Sebagai pengembang web, saya memiliki kemampuan belajar yang cepat dan mudah beradaptasi dengan lingkungan baru. Saya menikmati tantangan baru dan selalu siap untuk berkolaborasi dalam tim. Selain itu, saya juga tertarik untuk mengeksplorasi dunia pengembangan mobile. Saya yakin dapat memberikan kontribusi positif bagi tim.",
         "kemampuanyangsayamiliki": "Apa keunggulan yang saya miliki dalam bidang ini?",
         "portofolioterbaru": "Galeri Karya Terkini",
-        "deskripsicvform":"Proyek Formulir Curriculum Vitae memudahkan Anda untuk membuat CV profesional yang menonjol dengan mudah",
+        "deskripsicvform": "Proyek Formulir Curriculum Vitae memudahkan Anda untuk membuat CV profesional yang menonjol dengan mudah",
         "keterangancvform": "Saya menggunakan Laravel untuk pengembangan situs web ini dan MySQL sebagai sistem manajemen basis datanya. Saat ini, basis data dioperasikan secara lokal. Tujuan utama dari pembuatan situs web ini adalah sebagai bagian dari bootcamp untuk mempersiapkan diri memasuki perusahaan tempat saya bekerja saat ini.",
         "deskripsibreezio": "Website perkiraan cuaca ini memungkinkan Anda untuk dengan mudah mengakses informasi cuaca yang akurat dan cepat mencari kondisi di lokasi mana pun.",
-        "keteranganbreezio": "Website perkiraan cuaca ini menawarkan kemudahan dalam mengakses informasi cuaca terkini. Dengan fitur pencarian lokasi, Anda dapat menemukan cuaca di berbagai tempat dengan cepat dan efisien. Antarmuka yang sederhana memastikan pengalaman pengguna yang menyenangkan."
+        "keteranganbreezio": "Website perkiraan cuaca ini menawarkan kemudahan dalam mengakses informasi cuaca terkini. Dengan fitur pencarian lokasi, Anda dapat menemukan cuaca di berbagai tempat dengan cepat dan efisien. Antarmuka yang sederhana memastikan pengalaman pengguna yang menyenangkan.",
+        "deskripsiportofolio": "Saya telah mengembangkan portofolio pribadi yang interaktif dan responsif menggunakan ReactJS dan Tailwind CSS, dilengkapi dengan fitur dukungan multilanguage serta opsi mode gelap dan terang untuk meningkatkan pengalaman pengguna",
+        "keteranganportofolio": "Saya telah mengembangkan sebuah portofolio pribadi yang dirancang khusus untuk membangun merek diri saya. Portofolio ini dibangun menggunakan ReactJS, yang memungkinkan interaktivitas yang tinggi, serta Tailwind CSS untuk styling yang responsif dan modern. Selain itu, saya juga mengintegrasikan beberapa plugin untuk meningkatkan fungsionalitas dan pengalaman pengguna. Salah satu fitur unggulan dari portofolio ini adalah dukungan multilanguage, yang memungkinkan pengunjung untuk mengakses konten dalam berbagai bahasa. Selain itu, saya juga menyediakan opsi mode gelap dan mode terang, sehingga pengguna dapat memilih tampilan yang paling nyaman bagi mereka",
+        "silahkankontaksaya": "Jangan Ragu untuk Menghubungi Saya!"
     },
     "about": {
         "head": "Mengenal Saya Lebih Dekat",
@@ -35,16 +38,24 @@
         "texteducation": "Saya fokus mempelajari Administrasi Sistem Jaringan selama menempuh pendidikan, dengan penekanan pada konfigurasi perangkat jaringan, pemecahan masalah, dan manajemen sistem. Saya juga mendalami Administrasi Infrastruktur Jaringan dan Teknologi Layanan Jaringan. Selama pendidikan, saya memperoleh pengalaman berharga dengan berpartisipasi dalam Lomba Kompetensi Siswa (LKS) tingkat Provinsi Yogyakarta dalam bidang IT Network System Administration pada tahun 2023, yang memperkuat pemahaman dan keterampilan saya di bidang ini.",
         "smknegeri": "Sekolah Menengah Kejuruan Negeri 2 Pengasih",
         "teknikjaringankomputer": "Teknik Komputer Jaringan dan Telekomunikasi",
-        "ptbelanja":"PT Belanja Pasti Indonesia",
-        "webdeveloper":"Pengembang Web",
-        "textexperience":"Saya telah berkontribusi secara aktif dalam pengembangan berbagai proyek web. Hingga saat ini, saya telah terlibat dalam tiga proyek signifikan, dengan peran termasuk pengembangan front-end di mana saya menerapkan antarmuka pengguna berdasarkan desain yang dibuat oleh tim kreatif. Selain itu, saya juga memiliki pengalaman dalam menangani integrasi database dan API serta tugas-tugas front-end, memastikan solusi web yang kohesif dan fungsional."
+        "ptbelanja": "PT Belanja Pasti Indonesia",
+        "webdeveloper": "Pengembang Web",
+        "textexperience": "Saya telah berkontribusi secara aktif dalam pengembangan berbagai proyek web. Hingga saat ini, saya telah terlibat dalam tiga proyek signifikan, dengan peran termasuk pengembangan front-end di mana saya menerapkan antarmuka pengguna berdasarkan desain yang dibuat oleh tim kreatif. Selain itu, saya juga memiliki pengalaman dalam menangani integrasi database dan API serta tugas-tugas front-end, memastikan solusi web yang kohesif dan fungsional."
     },
-  "skill": {
+    "skill": {
         "desc": "Saya memiliki keterampilan dalam pengembangan frontend dan backend, dengan fokus pada desain responsif menggunakan Tailwind CSS. Saya berpengalaman dalam framework seperti Next.js dan React.js, dan sering menggunakan pustaka Framer Motion. Selain itu, saya biasanya mengintegrasikan komponen UI dari Aceternity UI atau Magic UI untuk meningkatkan pengalaman pengguna."
     },
     "portofolio": {
         "titleportofolio": "Galeri Karya Web",
-        "subtitleportofolio":"Menampilkan hasil karya saya dalam pengembangan situs dan aplikasi berbasis web"
+        "subtitleportofolio": "Menampilkan hasil karya saya dalam pengembangan situs dan aplikasi berbasis web"
+    },
+    "kontak": {
+        "ketikannama":"Ketikan Nama Anda",
+        "ketikanemail": "Ketikan Email Anda",
+        "pesan":"Pesan",
+        "ketikanpesan":"Ketikan Pesan",
+        "kirimpesan":"Kirim",
+        "kirimpesanemail":"Kontak saya lewat email"
     },
     "sekarang": "Sekarang",
     "bacaselengkapnya": "Baca Selengkapnya"
