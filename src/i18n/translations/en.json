@@ -7,7 +7,25 @@
         "contact": "Contact"
     },
     "home": {
-        "title": "Home Page"
+        "title": "By Merging Creative Ideas with Cutting-Edge Technology, I Bring Your Vision to Screen with ",
+        "subtitle": "Seamless Web and Mobile Integration.",
+        "kontaksaya": "Contact Me!",
+        "aboutme": "About Me!",
+        "tentangsaya": "Getting to Know Me?",
+        "name": "Name",
+        "nomor": "Phone Number",
+        "email": "Email",
+        "alamat": "Address",
+        "deskripsitentangsaya": "As a web developer, I have a quick learning ability and easily adapt to new environments. I enjoy new challenges and am always ready to collaborate within a team. Additionally, I am also interested in exploring the world of mobile development. I am confident that I can make a positive contribution to the team.",
+        "kemampuanyangsayamiliki": "What are my strengths in this field?",
+        "portofolioterbaru": "Current Works Gallery",
+        "deskripsicvform": "The Curriculum Vitae Form project makes it easy to create standout professional CVs effortlessly.",
+        "keterangancvform": "I am utilizing Laravel as the framework for developing this website and MySQL as the database management system. Currently, the database operates locally. The primary objective of creating this website is to serve as part of a bootcamp designed to prepare myself for entering the company where I am currently employed.",
+        "deskripsibreezio": "This weather forecast website allows you to easily access accurate weather information and quickly search for conditions in any location",
+        "keteranganbreezio": "This weather forecast website is designed to provide ease of access to current and accurate weather information. With an intuitive location search feature, you can quickly find the weather in various places, whether it's in your city or in other locations you desire.",
+        "deskripsiportofolio": "I have developed an interactive and responsive personal portfolio using ReactJS and Tailwind CSS, featuring multilingual support and dark/light mode options to enhance the user experience.",
+        "keteranganportofolio": "I have developed a personal portfolio specifically designed to build my personal brand. This portfolio is built using ReactJS, which allows for high interactivity, and Tailwind CSS for responsive and modern styling. Additionally, I have integrated several plugins to enhance functionality and user experience. One of the standout features of this portfolio is its multilingual support, enabling visitors to access content in various languages. Furthermore, I have also provided options for dark mode and light mode, allowing users to choose the display that is most comfortable for them.",
+        "silahkankontaksaya": "Don't Hesitate to Get in Touch!"
     },
     "about": {
         "head": "Getting to Know Me Better",
@@ -20,16 +38,25 @@
         "texteducation": "I focused on Network System Administration during my education, with an emphasis on network device configuration, troubleshooting, and system management. I also studied Network Infrastructure Administration and Network Service Technology. During my education, I gained valuable experience by participating in the Yogyakarta Province Student Competency Competition (LKS) in IT Network System Administration in 2023, which strengthened my understanding and skills in this field",
         "smknegeri": "State Vocational High School 2 Pengasih",
         "teknikjaringankomputer": "Computer Network and Telecommunications Engineering",
-        "ptbelanja" : "PT Belanja Pasti Indonesia",
-        "webdeveloper":"Web Developer",
-        "textexperience":"I have actively contributed to the development of various web projects. To date, I have been involved in three significant projects, with roles including front-end development, where I implemented user interfaces based on designs created by the creative team. Additionally, I also have experience in handling database and API integration, as well as front-end tasks, ensuring cohesive and functional web solutions."
+        "ptbelanja": "PT Belanja Pasti Indonesia",
+        "webdeveloper": "Web Developer",
+        "textexperience": "I have actively contributed to the development of various web projects. To date, I have been involved in three significant projects, with roles including front-end development, where I implemented user interfaces based on designs created by the creative team. Additionally, I also have experience in handling database and API integration, as well as front-end tasks, ensuring cohesive and functional web solutions."
     },
-  "skill": {
+    "skill": {
         "desc": "I have skills in both frontend and backend development, with a focus on responsive design using Tailwind CSS. I am experienced with frameworks such as Next.js and React.js, and I often use the Framer Motion library. Additionally, I usually integrate UI components from Aceternity UI or Magic UI to enhance the user experience."
     },
     "portofolio": {
         "titleportofolio": "Web Works Gallery",
-        "subtitleportofolio":"Showcasing my work in developing websites and web-based applications"
+        "subtitleportofolio": "Showcasing my work in developing websites and web-based applications"
     },
-    "sekarang": "Now"
+    "kontak": {
+        "ketikannama":"Type Your Name",
+        "ketikanemail": "Type Your Email",
+        "pesan":"Message",
+        "ketikanpesan":"Type Your Message",
+        "kirimpesan":"Send",
+        "kirimpesanemail":"Contact me via email"
+    },
+    "sekarang": "Now",
+    "bacaselengkapnya": "Read More"
 }

@@ -55,3 +55,17 @@
 * {
     -ms-overflow-style: none;
 }
+
+.form-group {
+    @apply my-2;
+}
+.form-group label {
+    @apply text-sm mb-1;
+}
+
+.form-group input,
+.form-group textarea {
+    @apply rounded-md px-2 py-1 bg-transparent outline-none border text-sm;
+    @apply placeholder:text-sm placeholder:text-gray-700 focus:placeholder:text-black dark:placeholder:text-white;
+    @apply focus:border-spacing-2 focus:border-black dark:focus:border-blue-700;
+}
