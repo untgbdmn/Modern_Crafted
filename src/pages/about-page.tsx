@@ -4,7 +4,6 @@ import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import Biography from "./about/biography";
 import Education from "./about/education";
 import Experience from "./about/experience";
-import { Link } from "react-router-dom";
 
 export default function AboutPage() {
     const { t } = useTranslation();

@@ -5,9 +5,9 @@ import { FaBootstrap, FaCss3Alt, FaHtml5, FaJs, FaLaravel, FaPhp, FaReact } from
 import { SiMariadb, SiMysql, SiNextdotjs } from 'react-icons/si';
 
 interface MarqueSkillsProps {
-  direction?: string;
-  delay?: number;
-}
+    direction?: 'left' | 'right' | 'up' | 'down'; // Change here
+    delay?: number;
+  }
 
 export default function MarqueSkills({ direction = "left", delay = 0 }: MarqueSkillsProps) {
   return (
