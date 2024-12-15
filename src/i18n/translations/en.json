@@ -17,7 +17,12 @@
         "email": "Email",
         "alamat": "Address",
         "deskripsitentangsaya": "As a web developer, I have a quick learning ability and easily adapt to new environments. I enjoy new challenges and am always ready to collaborate within a team. Additionally, I am also interested in exploring the world of mobile development. I am confident that I can make a positive contribution to the team.",
-        "kemampuanyangsayamiliki": "What are my strengths in this field?"
+        "kemampuanyangsayamiliki": "What are my strengths in this field?",
+        "portofolioterbaru": "Current Works Gallery",
+        "deskripsicvform": "The Curriculum Vitae Form project makes it easy to create standout professional CVs effortlessly.",
+        "keterangancvform": "I am utilizing Laravel as the framework for developing this website and MySQL as the database management system. Currently, the database operates locally. The primary objective of creating this website is to serve as part of a bootcamp designed to prepare myself for entering the company where I am currently employed.",
+        "deskripsibreezio": "This weather forecast website allows you to easily access accurate weather information and quickly search for conditions in any location",
+        "keteranganbreezio": "This weather forecast website is designed to provide ease of access to current and accurate weather information. With an intuitive location search feature, you can quickly find the weather in various places, whether it's in your city or in other locations you desire."
     },
     "about": {
         "head": "Getting to Know Me Better",

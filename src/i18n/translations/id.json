@@ -17,7 +17,12 @@
         "email": "Email",
         "alamat": "Alamat",
         "deskripsitentangsaya": "Sebagai pengembang web, saya memiliki kemampuan belajar yang cepat dan mudah beradaptasi dengan lingkungan baru. Saya menikmati tantangan baru dan selalu siap untuk berkolaborasi dalam tim. Selain itu, saya juga tertarik untuk mengeksplorasi dunia pengembangan mobile. Saya yakin dapat memberikan kontribusi positif bagi tim.",
-        "kemampuanyangsayamiliki": "Apa keunggulan yang saya miliki dalam bidang ini?"
+        "kemampuanyangsayamiliki": "Apa keunggulan yang saya miliki dalam bidang ini?",
+        "portofolioterbaru": "Galeri Karya Terkini",
+        "deskripsicvform":"Proyek Formulir Curriculum Vitae memudahkan Anda untuk membuat CV profesional yang menonjol dengan mudah",
+        "keterangancvform": "Saya menggunakan Laravel untuk pengembangan situs web ini dan MySQL sebagai sistem manajemen basis datanya. Saat ini, basis data dioperasikan secara lokal. Tujuan utama dari pembuatan situs web ini adalah sebagai bagian dari bootcamp untuk mempersiapkan diri memasuki perusahaan tempat saya bekerja saat ini.",
+        "deskripsibreezio": "Website perkiraan cuaca ini memungkinkan Anda untuk dengan mudah mengakses informasi cuaca yang akurat dan cepat mencari kondisi di lokasi mana pun.",
+        "keteranganbreezio": "Website perkiraan cuaca ini menawarkan kemudahan dalam mengakses informasi cuaca terkini. Dengan fitur pencarian lokasi, Anda dapat menemukan cuaca di berbagai tempat dengan cepat dan efisien. Antarmuka yang sederhana memastikan pengalaman pengguna yang menyenangkan."
     },
     "about": {
         "head": "Mengenal Saya Lebih Dekat",

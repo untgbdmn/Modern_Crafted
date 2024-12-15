@@ -7,12 +7,18 @@ import { Link } from "react-router-dom";
 import HeroImage from "../assets/images/hero.png";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import ShineBorder from "@/components/ui/shine-border";
-import Marquee from "react-fast-marquee";
-import { FaHtml5 } from "react-icons/fa";
 import MarqueSkills from "@/components/marque-skills";
+import { Drawer, DrawerContent, DrawerHeader, DrawerTrigger } from "@/components/ui/drawer";
+import { useTheme } from "@/components/theme-provider";
+import { FaGithub } from "react-icons/fa";
+
+// Images For Portofolio
+import CVFormImage from "../assets/images/cvform.png";
+import Breezio from "../assets/images/brezio.png";
 
 export default function Home() {
     const { t } = useTranslation();
+    const theme = useTheme();
 
     return (
         <div className="">
@@ -94,11 +100,97 @@ export default function Home() {
                 <div className="pt-16">
                     <div className="w-full">
                         <MarqueSkills />
-                        <MarqueSkills direction="right" delay={10}/>
+                        <MarqueSkills direction="right" delay={4} />
                     </div>
                 </div>
             </div>
             {/* End SKills Section */}
+
+            {/* Portofolio Section */}
+            <div className="py-20">
+                <div className="flex flex-col items-center justify-center">
+                    <h1 className="text-3xl font-bold text-light-fifth dark:text-dark-sixth">{t("home.portofolioterbaru")}</h1>
+                    <p className="text-base font-semibold uppercase tracking-wider">{t('navbar.portofolio')}</p>
+                </div>
+
+                <div className="grid grid-cols-2 mt-20 gap-32 px-8">
+                    <Drawer>
+                        <DrawerTrigger className="flex items-center justify-center">
+                            <ShineBorder className="w-full py-7" color={theme.theme === "dark" ? ["#1a324a", "#27e7ec", "#5aa5cd"] : ["#21212d", "#9c6350", "#f4cea1"]} borderWidth={3} duration={13}>
+                                <div className="">
+                                    <h1 className="font-bold text-xl">CV Form Maker</h1>
+                                    <p className="text-sm text-gray-600 dark:text-gray-400">Click Me!</p>
+                                </div>
+                            </ShineBorder>
+                        </DrawerTrigger>
+                        <DrawerContent className="overflow-hidden">
+                            <DrawerHeader>
+                                <div className="flex flex-row justify-between items-center">
+                                    <div>
+                                        <h1 className="font-bold text-2xl text-light-second dark:text-dark-fifth">Curiculum Vitae Form</h1>
+                                        <p className="text-sm text-light-sixth dark:text-gray-400">{t('home.deskripsicvform')}</p>
+                                    </div>
+                                    <div className="flex flex-row gap-5">
+                                        <Link to="#">
+                                            <button className="inline-flex items-center justify-center gap-2 bg-black text-white px-5 py-1 rounded-md hover:opacity-80 transition-opacity duration-200 dark:bg-white dark:text-black font-semibold"><FaGithub />Github</button>
+                                        </Link>
+                                        <Link to="#" className="bg-light-sixth font-semibold px-5 py-1 rounded-md transition-opacity duration-200 text-white hover:opacity-70 dark:bg-dark-sixth">
+                                            Demo
+                                        </Link>
+                                    </div>
+                                </div>
+                            </DrawerHeader>
+
+                            <div className="h-full min-h-96 px-4 grid grid-cols-2 items-center">
+                                <p className="text-black dark:text-white">{t('home.keterangancvform')}</p>
+                                <div className="inline-flex items-center justify-end"><img src={CVFormImage} className="w-auto h-80 " /></div>
+                            </div>
+                        </DrawerContent>
+                    </Drawer>
+
+                    <Drawer>
+                        <DrawerTrigger className="flex items-center justify-center">
+                            <ShineBorder className="w-full py-7" color={theme.theme === "dark" ? ["#1a324a", "#27e7ec", "#5aa5cd"] : ["#21212d", "#9c6350", "#f4cea1"]} borderWidth={3} duration={13}>
+                                <div className="">
+                                    <h1 className="font-bold text-xl">Brezzio</h1>
+                                    <p className="text-sm text-gray-600 dark:text-gray-400">Click Me!</p>
+                                </div>
+                            </ShineBorder>
+                        </DrawerTrigger>
+                        <DrawerContent className="overflow-hidden">
+                            <DrawerHeader>
+                                <div className="flex flex-row justify-between items-center">
+                                    <div>
+                                        <h1 className="font-bold text-2xl text-light-second dark:text-dark-fifth">Breezio</h1>
+                                        <p className="text-sm text-light-sixth dark:text-gray-400">{t('home.deskripsibreezio')}</p>
+                                    </div>
+                                    <div className="flex flex-row gap-5">
+                                        <Link to="https://github.com/untgbdmn/Breezio" target="_blank">
+                                            <button className="inline-flex items-center justify-center gap-2 bg-black text-white px-5 py-1 rounded-md hover:opacity-80 transition-opacity duration-200 dark:bg-white dark:text-black font-semibold"><FaGithub />Github</button>
+                                        </Link>
+                                        <Link to="https://breezio.vercel.app/" target="_blank" className="bg-light-sixth font-semibold px-5 py-1 rounded-md transition-opacity duration-200 text-white hover:opacity-70 dark:bg-dark-sixth">
+                                            Demo
+                                        </Link>
+                                    </div>
+                                </div>
+                            </DrawerHeader>
+
+                            <div className="h-full min-h-96 px-4 grid grid-cols-2 items-center">
+                                <p className="text-black dark:text-white">{t('home.keteranganbreezio')}</p>
+                                <div className="inline-flex items-center justify-end"><img src={Breezio} className="w-auto h-80 " /></div>
+                            </div>
+                        </DrawerContent>
+                    </Drawer>
+
+                </div>
+            </div>
+            {/* End Portofolio Section */}
+
+            {/* Contact Section */}
+            <div className="py-20">
+                ad
+            </div>
+            {/* End Contact Section */}
         </div>
     )
 }

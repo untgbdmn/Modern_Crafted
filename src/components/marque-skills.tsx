@@ -1,7 +1,8 @@
 import Marquee from 'react-fast-marquee'
-import { BiLogoTypescript } from 'react-icons/bi';
+import { BiLogoFlutter, BiLogoPostgresql, BiLogoTailwindCss, BiLogoTypescript } from 'react-icons/bi';
 import { DiDart } from 'react-icons/di';
-import { FaCss3Alt, FaHtml5, FaJs, FaLaravel, FaPhp, FaReact } from 'react-icons/fa'
+import { FaBootstrap, FaCss3Alt, FaHtml5, FaJs, FaLaravel, FaPhp, FaReact } from 'react-icons/fa'
+import { SiMariadb, SiMysql, SiNextdotjs } from 'react-icons/si';
 
 interface MarqueSkillsProps {
   direction?: string;
@@ -10,7 +11,7 @@ interface MarqueSkillsProps {
 
 export default function MarqueSkills({ direction = "left", delay = 0 }: MarqueSkillsProps) {
   return (
-    <Marquee pauseOnClick direction={direction} className="" delay={delay}>
+    <Marquee pauseOnClick pauseOnHover direction={direction} className="" delay={delay}>
       <div className="border border-[#E34F26] text-[#E34F26] hover:bg-[#E34F26] hover:text-white transition-all duration-300 hover:-translate-y-3  rounded-md px-7 mx-4 py-2 font-semibold my-5 inline-flex items-center justify-center gap-3">
         <FaHtml5 className="size-5" /> HTML
       </div>
@@ -43,16 +44,32 @@ export default function MarqueSkills({ direction = "left", delay = 0 }: MarqueSk
         <FaReact className="size-5" /> ReactJs
       </div>
 
-      <div className="border border-[#E34F26] text-[#E34F26] hover:bg-[#E34F26] hover:text-white transition-all duration-300 hover:-translate-y-3  rounded-md px-7 mx-4 py-2 font-semibold my-5 inline-flex items-center justify-center gap-3">
-        <FaHtml5 className="size-5" /> NextJs
+      <div className="border border-[#000000] dark:border-white text-[#000000] dark:text-white hover:bg-[#000000] dark:hover:bg-white hover:text-white dark:hover:text-black transition-all duration-300 hover:-translate-y-3  rounded-md px-7 mx-4 py-2 font-semibold my-5 inline-flex items-center justify-center gap-3">
+        <SiNextdotjs className="size-5" /> NextJs
       </div>
 
-      <div className="border border-[#E34F26] text-[#E34F26] hover:bg-[#E34F26] hover:text-white transition-all duration-300 hover:-translate-y-3  rounded-md px-7 mx-4 py-2 font-semibold my-5 inline-flex items-center justify-center gap-3">
-        <FaHtml5 className="size-5" /> HTML
+      <div className="border border-[#02569B] text-[#02569B] hover:bg-[#02569B] hover:text-white transition-all duration-300 hover:-translate-y-3  rounded-md px-7 mx-4 py-2 font-semibold my-5 inline-flex items-center justify-center gap-3">
+        <BiLogoFlutter className="size-5" /> Flutter
       </div>
 
-      <div className="border border-[#E34F26] text-[#E34F26] hover:bg-[#E34F26] hover:text-white transition-all duration-300 hover:-translate-y-3  rounded-md px-7 mx-4 py-2 font-semibold my-5 inline-flex items-center justify-center gap-3">
-        <FaHtml5 className="size-5" /> HTML
+      <div className="border border-[#4169E1] text-[#4169E1] hover:bg-[#4169E1] hover:text-white transition-all duration-300 hover:-translate-y-3  rounded-md px-7 mx-4 py-2 font-semibold my-5 inline-flex items-center justify-center gap-3">
+        <BiLogoPostgresql className="size-5" /> PostgreSQL
+      </div>
+
+      <div className="border border-[#003545] text-[#003545] hover:bg-[#003545] hover:text-white transition-all duration-300 hover:-translate-y-3  rounded-md px-7 mx-4 py-2 font-semibold my-5 inline-flex items-center justify-center gap-3">
+        <SiMariadb className="size-5" /> MariaDB
+      </div>
+
+      <div className="border border-[#4479A1] text-[#4479A1] hover:bg-[#4479A1] hover:text-white transition-all duration-300 hover:-translate-y-3  rounded-md px-7 mx-4 py-2 font-semibold my-5 inline-flex items-center justify-center gap-3">
+        <SiMysql className="size-5" /> MySQL
+      </div>
+
+      <div className="border border-[#7952B3] text-[#7952B3] hover:bg-[#7952B3] hover:text-white transition-all duration-300 hover:-translate-y-3  rounded-md px-7 mx-4 py-2 font-semibold my-5 inline-flex items-center justify-center gap-3">
+        <FaBootstrap className="size-5" /> Bootstrap
+      </div>
+
+      <div className="border border-[#06B6D4] text-[#06B6D4] hover:bg-[#06B6D4] hover:text-white transition-all duration-300 hover:-translate-y-3  rounded-md px-7 mx-4 py-2 font-semibold my-5 inline-flex items-center justify-center gap-3">
+        <BiLogoTailwindCss className="size-5" /> Tailwind
       </div>
     </Marquee>
   )
